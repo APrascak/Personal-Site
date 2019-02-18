@@ -1,0 +1,111 @@
+#headshot {
+  border-radius: 50%;
+  width: 20%;
+  height: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-bottom: 5%;
+}
+
+.centered {
+  text-align: center;
+}
+
+.top-block {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: rgb(79, 98, 130);
+  border-bottom: 15px solid black;
+  color: gainsboro;
+}
+
+.the-icons {
+  padding-left: .25%;
+  padding-right: .25%;
+}
+
+.project-block {
+  padding-top:5%;
+  padding-bottom: 5%;
+  background-color: gainsboro;
+  color: rgb(79, 98, 130);
+  border-bottom: 15px solid black;
+}
+
+.project {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-color: rgb(79, 98, 130);
+  color: gainsboro;
+}
+
+.project-desc {
+  text-align: left;
+  text-size: 8px;
+}
+
+.project-desc p {
+  margin-bottom: 5%;
+}
+
+.project i {
+  padding-top: 10%;
+  font-size: 110px;
+}
+
+.project-date {
+  font-size: 16px;
+  padding-top: 10%;
+}
+
+hr {
+  border-top: 2px solid black;
+}
+
+a {
+  color: gainsboro;
+}
+
+.contact-block {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: rgb(79, 98, 130);
+  color: gainsboro;
+}
+
+#contact h2 {
+  padding-bottom: 2%;
+}
+
+#contact input, #contact textarea {
+  width: 100%;
+  border: 1px solid #CCC;
+  background: gainsboro;
+  margin: 0 0 5px;
+  padding: 1%;
+}
+
+#contact button {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: black;
+  color: gainsboro;
+  margin: 0 0 5px;
+  padding: 1%;
+}
+
+.info h2 {
+  padding-bottom: 2%;
+}
+
+.info p {
+  padding: 0;
+}
+
+fieldset {
+  width: 100%;
+}

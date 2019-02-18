@@ -1,9 +1,106 @@
 <!DOCTYPE html>
 <html>
-	<title>Personal Webpage</title>
+
+<head>
+	<title>Alex Prascak</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-	<p>Alex Prascak</p>
-	<p>This is a test for GitHub Learning.</p>
+
+	<div class="container-fluid top-block centered">
+		<img id="headshot" src="headshot.jpeg" alt="Avatar">
+		<h1>Alex Prascak</h1>
+		<p>Computer Science @ <a href="http://www.ufl.edu/">University of Florida</a></p>
+		<div class="">
+			<a href="https://www.linkedin.com/in/aprascak/" class="the-icons"><i class="fab fa-linkedin-in the-icons" style="font-size:24px"></i></a>
+			<a href="https://github.com/APrascak"><i class="fab fa-github the-icons" style="font-size:24px"></i></a>
+		</div>
+	</div>
+
+	<div class="container-fluid project-block">
+
+		<div class="centered"><h1>Projects</h1></div>
+
+		<div class="row">
+			<div class="col-1"></div>
+			<div class="col-4 centered project">
+				<h3>CL Twitter Script</h3>
+				<hr>
+				<div class="row">
+					<div class="col-6 project-desc">
+						<p>Command line interface that integrates Python-Twitter API</p>
+						<p>Receives tweets, direct messages, mentions, and timeline</p>
+						<p>Posts tweets, retweets, and direct messages</p>
+					</div>
+					<div class="col-6">
+						<i class="fab fa-github-alt"></i>
+						<p class="project-date">Swamphacks 2019</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-2"></div>
+			<div class="col-4 centered project">
+				<h3>CS Course Requirements</h3>
+				<hr>
+				<div class="row">
+					<div class="col-6 project-desc">
+						<p>Command line interface that integrates Python-Twitter API</p>
+						<p>Receives tweets, direct messages, mentions, and timeline</p>
+						<p>Posts tweets, retweets, and direct messages</p>
+					</div>
+					<div class="col-6">
+						<i class="fab fa-github-alt"></i>
+						<p class="project-date">February 2019</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-1"></div>
+		</div>
+
+	</div>
+
+	<div class="container-fluid contact-block">
+
+		<div class="row">
+			<div class="col-1"></div>
+			<div class="col-4">
+				<form id="contact" action="" method="post">
+					<h2>Contact Me</h2>
+					<fieldset>
+			      <input placeholder="Name" type="text" tabindex="1" required>
+			    </fieldset>
+					<fieldset>
+			      <input placeholder="Email Address" type="email" tabindex="2" required>
+			    </fieldset>
+			    <fieldset>
+			      <input placeholder="Phone Number" type="tel" tabindex="3" required>
+			    </fieldset>
+			    <fieldset>
+			      <textarea placeholder="Message..." tabindex="5" required></textarea>
+			    </fieldset>
+			    <fieldset>
+			      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+			    </fieldset>
+				</form>
+			</div>
+			<div class="col-2"></div>
+			<div class="col-4 info">
+				<h2>Info</h2>
+				<p>Email: aprascak@ufl.edu</p>
+				<p>Phone: (219) 575-8105</p>
+				<a href="Alex-Prascak-Resume.doc" download><p>Resume</p></a>
+			</div>
+			<div class="col-1"></div>
+		</div>
+
+
+	</div>
+
 </body>
+
 </html>
